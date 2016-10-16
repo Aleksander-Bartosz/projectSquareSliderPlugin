@@ -11,12 +11,14 @@ Version Prototype 1.0 /**************\
    -1125>  photo must be 1024/600px
    
    
-  *In head write:
-  
-  
+  In head write:
+    
   -script src='app.js'
+  
   -link rel='stylesheet' type='text/css' href='style/style.css'
+  
   -script src="jquery-3.1.1.min.js"
+  
 Its  how html must look : 
 ```html
  <--!div class='mainContainerSquareRWD'>
