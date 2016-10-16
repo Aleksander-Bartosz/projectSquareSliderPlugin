@@ -1,0 +1,330 @@
+body, ul {
+  margin: 0px;
+  padding: 0px; }
+
+@media all and (min-width: 320px) {
+  .mainContainer {
+    margin: auto;
+    width: 300px;
+    height: 176px;
+    position: relative; }
+
+  .myButton {
+    color: white; }
+
+  .second {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 30px solid white; }
+
+  .first {
+    position: absolute;
+    top: 50%;
+    right: -3.5%;
+    transform: translate(-10px, -50%);
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 30px solid white; }
+
+  .container {
+    margin: auto;
+    width: 300px;
+    height: 176px; }
+    .container [class*="row-"] {
+      width: 60px;
+      height: 88px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/rlysmall-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/rlysmall-photo1.png") 241px 0px; }
+    .container [class$="3"] {
+      background: url("img/rlysmall-photo1.png") 181px 0px; }
+    .container [class$="4"] {
+      background: url("img/rlysmall-photo1.png") 121px 0px; }
+    .container [class$="5"] {
+      background: url("img/rlysmall-photo1.png") 61px 0px; }
+    .container [class$="6"] {
+      background: url("img/rlysmall-photo1.png") 0px 89px; }
+    .container [class$="7"] {
+      background: url("img/rlysmall-photo1.png")-59px 89px; }
+    .container [class$="8"] {
+      background: url("img/rlysmall-photo1.png")-119px 89px; }
+    .container [class$="9"] {
+      background: url("img/rlysmall-photo1.png")-179px 89px; }
+    .container [class$="10"] {
+      background: url("img/rlysmall-photo1.png")-239px 89px; }
+    .container .clearner {
+      clear: both; } }
+@media all and (min-width: 480px) {
+  .mainContainer {
+    margin: auto;
+    width: 430px;
+    height: 252px;
+    position: relative; }
+
+  .myButton {
+    color: white;
+    transform: translate(0%, -50%); }
+
+  .second {
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 40px solid white; }
+
+  .first {
+    position: absolute;
+    top: 50%;
+    right: 0.5%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 40px solid white; }
+
+  .container {
+    margin: auto;
+    width: 430px;
+    height: 252px; }
+    .container [class*="row-"] {
+      width: 85.4px;
+      height: 125px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/small-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/small-photo1.png") -84px 0px; }
+    .container [class$="3"] {
+      background: url("img/small-photo1.png") 260px 0px; }
+    .container [class$="4"] {
+      background: url("img/small-photo1.png") 175px 0px; }
+    .container [class$="5"] {
+      background: url("img/small-photo1.png") 90px 0px; }
+    .container [class$="6"] {
+      background: url("img/small-photo1.png") 0px 128px; }
+    .container [class$="7"] {
+      background: url("img/small-photo1.png")-84px 128px; }
+    .container [class$="8"] {
+      background: url("img/small-photo1.png")-169px 128px; }
+    .container [class$="9"] {
+      background: url("img/small-photo1.png")-254px 128px; }
+    .container [class$="10"] {
+      background: url("img/small-photo1.png")-340px 128px; }
+    .container .clearner {
+      clear: both; } }
+@media all and (min-width: 600px) {
+  .mainContainer {
+    margin: auto;
+    width: 600px;
+    height: 352px;
+    position: relative; }
+
+  .myButton {
+    color: White;
+    transform: translate(0%, -50%); }
+
+  .second {
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 50px solid white; }
+
+  .first {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 50px solid white; }
+
+  .container {
+    margin: auto;
+    width: 600px;
+    height: 352px; }
+    .container [class*="row-"] {
+      width: 120px;
+      height: 176px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/medium-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/medium-photo1.png") -119px 0px; }
+    .container [class$="3"] {
+      background: url("img/medium-photo1.png") 362px 0px; }
+    .container [class$="4"] {
+      background: url("img/medium-photo1.png") 242px 0px; }
+    .container [class$="5"] {
+      background: url("img/medium-photo1.png") 122px 0px; }
+    .container [class$="6"] {
+      background: url("img/medium-photo1.png") 0px 176px; }
+    .container [class$="7"] {
+      background: url("img/medium-photo1.png")-119px 176px; }
+    .container [class$="8"] {
+      background: url("img/medium-photo1.png")-239px 176px; }
+    .container [class$="9"] {
+      background: url("img/medium-photo1.png")-358px 176px; }
+    .container [class$="10"] {
+      background: url("img/medium-photo1.png")-478px 176px; }
+    .container .clearner {
+      clear: both; } }
+@media all and (min-width: 720px) {
+  .mainContainer {
+    margin: auto;
+    width: 700px;
+    height: 411px;
+    position: relative; }
+
+  .myButton {
+    color: White;
+    transform: translate(0%, -50%); }
+
+  .second {
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 50px solid white; }
+
+  .first {
+    position: absolute;
+    top: 50%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 50px solid white; }
+
+  .container {
+    width: 700px;
+    height: 411px; }
+    .container [class*="row-"] {
+      width: 140px;
+      height: 205.5px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/bigmedium-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/bigmedium-photo1.png") -139px 0px; }
+    .container [class$="3"] {
+      background: url("img/bigmedium-photo1.png") 421px 0px; }
+    .container [class$="4"] {
+      background: url("img/bigmedium-photo1.png") 281px 0px; }
+    .container [class$="5"] {
+      background: url("img/bigmedium-photo1.png") 142px 0px; }
+    .container [class$="6"] {
+      background: url("img/bigmedium-photo1.png") 0px 205px; }
+    .container [class$="7"] {
+      background: url("img/bigmedium-photo1.png")-140px 205px; }
+    .container [class$="8"] {
+      background: url("img/bigmedium-photo1.png")-280px 205px; }
+    .container [class$="9"] {
+      background: url("img/bigmedium-photo1.png")-420px 205px; }
+    .container [class$="10"] {
+      background: url("img/bigmedium-photo1.png")-559px 205px; }
+    .container .clearner {
+      clear: both; } }
+@media all and (min-width: 1024px) {
+  .mainContainer {
+    margin: auto;
+    width: 950px;
+    height: 600px;
+    position: relative; }
+
+  .myButton {
+    color: white;
+    transform: translate(0%, -114%); }
+
+  .second {
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 50px solid white; }
+
+  .first {
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 50px solid white; }
+
+  .container {
+    width: 950px;
+    height: 600px; }
+    .container [class*="row-"] {
+      width: 190px;
+      height: 278.5px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/semilarge-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/semilarge-photo1.png") -190px 0px; }
+    .container [class$="3"] {
+      background: url("img/semilarge-photo1.png") -380px 0px; }
+    .container [class$="4"] {
+      background: url("img/semilarge-photo1.png") 380px 0px; }
+    .container [class$="5"] {
+      background: url("img/semilarge-photo1.png") 191px 0px; }
+    .container [class$="6"] {
+      background: url("img/semilarge-photo1.png") 0px -279px; }
+    .container [class$="7"] {
+      background: url("img/semilarge-photo1.png")-190px -279px; }
+    .container [class$="8"] {
+      background: url("img/semilarge-photo1.png")-379px -279px; }
+    .container [class$="9"] {
+      background: url("img/semilarge-photo1.png")-569px -279px; }
+    .container [class$="10"] {
+      background: url("img/semilarge-photo1.png")-759px -279px; }
+    .container .clearner {
+      clear: both; } }
+@media all and (min-width: 1125px) {
+  .mainContainer {
+    margin: auto auto;
+    width: 1024px;
+    height: 600px;
+    position: relative; }
+
+  .myButton {
+    color: white;
+    transform: translate(0px, -50%); }
+
+  .second {
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 60px solid white; }
+
+  .first {
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 60px solid white; }
+
+  .container {
+    width: 1024px;
+    height: 600px; }
+    .container [class*="row-"] {
+      width: 204.8px;
+      height: 300px;
+      float: left; }
+    .container [class$="1"] {
+      background: url("img/large-photo1.png"); }
+    .container [class$="2"] {
+      background: url("img/large-photo1.png") -203px 0px; }
+    .container [class$="3"] {
+      background: url("img/large-photo1.png") -407px 0px; }
+    .container [class$="4"] {
+      background: url("img/large-photo1.png") 412px 0px; }
+    .container [class$="5"] {
+      background: url("img/large-photo1.png") 208px 0px; }
+    .container [class$="6"] {
+      background: url("img/large-photo1.png") 0px -300px; }
+    .container [class$="7"] {
+      background: url("img/large-photo1.png")-203px -299px; }
+    .container [class$="8"] {
+      background: url("img/large-photo1.png")-407px -299px; }
+    .container [class$="9"] {
+      background: url("img/large-photo1.png")-611px -299px; }
+    .container [class$="10"] {
+      background: url("img/large-photo1.png")-815px -299px; }
+    .container .clearner {
+      clear: both; } }
+
+/*# sourceMappingURL=style.css.map */
