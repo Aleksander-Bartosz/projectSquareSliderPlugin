@@ -3,7 +3,7 @@
 Version Prototype 1.0 /**************\
   Working on progress
 Its  how html must look : 
- /*<div class='mainContainerSquareRWD'>
+ <--!<div class='mainContainerSquareRWD'>
         <div class='myButtonSquareRWD firstSquareRWD'></div>
         <div class='containerSquareRWD'>
             <div class='row row-1' data-num='1'></div>
@@ -19,4 +19,4 @@ Its  how html must look :
             <div class='row clearner'></div>
         </div>
         <div class='myButtonSquareRWD secondSquareRWD'></div>
-</div>    */
+</div>    !-->
