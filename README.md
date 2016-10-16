@@ -12,13 +12,11 @@ Version Prototype 1.0 /**************\
    
    
   In head write:
-    
-  -script src='app.js'
-  
-  -link rel='stylesheet' type='text/css' href='style/style.css'
-  
-  -script src="jquery-3.1.1.min.js"
-  
+```html   
+    <link rel='stylesheet' type='text/css' href='style/projectSquareRWDplugin.css'>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src='projectSquareRWDplugin.js'></script>
+```  
 Its  how html must look : 
 ```html
  <div class='mainContainer'>
@@ -39,8 +37,9 @@ Its  how html must look :
         <div class='myButton second'></div>
     </div>    
 ```
-To use  plugin in ur  code just  write
+To use  plugin put file projectSquareRWDplugin.js and style/projectSquareRWDplugin.css in same file where u have index.html (remember to add also jquuery jquery-3.1.1.min is in file pack)
+In jquuery code just  write :
 
 $('.mainContainerSquareRWD').projectSquareRWDplugin()
 
-enjoy 
+enjoy ! ! !
