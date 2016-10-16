@@ -14,6 +14,7 @@ Version Prototype 1.0 /**************\
   -link rel='stylesheet' type='text/css' href='style/style.css'
   -script src="jquery-3.1.1.min.js"
 Its  how html must look : 
+'''html
  <--!div class='mainContainerSquareRWD'>
         div class='myButtonSquareRWD firstSquareRWD' div
         div class='containerSquareRWD'>
@@ -31,3 +32,4 @@ Its  how html must look :
         div>
         div class='myButtonSquareRWD secondSquareRWD' div>
 div>    !-->
+'''
