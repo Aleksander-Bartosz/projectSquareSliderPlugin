@@ -1,4 +1,4 @@
-$.fn.projectSquareRWDplugin = function() { 
+$.fn.projectSquareRWD = function() { 
     var row =$('.row');
     var cout=1;
     var slideChanger=$('.myButtonSquareRWD');

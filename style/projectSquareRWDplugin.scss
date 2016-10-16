@@ -4,16 +4,16 @@ body,ul {
 }
 
 @media all and (min-width:320px) {
-    .mainContainer {
+    .mainContainerSquareRWD {
         margin:auto;
         width:300px;
         height: 176px;
         position: relative;
     }
-    .myButton {
+    .myButtonSquareRWD {
         color:white;
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         top: 50%;
         transform: translate(0px, -50%);
@@ -21,7 +21,7 @@ body,ul {
         border-bottom: 7px solid transparent; 
         border-right:30px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         top: 50%;
         right: -3.5%;
@@ -31,7 +31,7 @@ body,ul {
         border-left: 30px solid white;
     }
   
-   .container {
+   .containerSquareRWD {
     margin:auto;
     width: 300px;
     height: 176px;
@@ -71,24 +71,24 @@ body,ul {
 } 
 }
 @media all and(min-width:480px) {
-    .mainContainer {
+    .mainContainerSquareRWD {
         margin:auto;
         width: 430px;
         height: 252px;
         position: relative;
     }
-  .myButton {
+  .myButtonSquareRWD {
         color:white;
         transform: translate(0%, -50%);
         
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent; 
         border-right:40px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         top: 50%;
         right: 0.5%;
@@ -98,7 +98,7 @@ body,ul {
         
     }
   
-   .container {
+   .containerSquareRWD {
     margin:auto;
     width: 430px;
     height: 252px;
@@ -139,23 +139,23 @@ body,ul {
 }
 
 @media all and(min-width:600px) {
-    .mainContainer {
+    .mainContainerSquareRWD {
         margin:auto;
         width: 600px;
         height: 352px;
         position: relative;
     }
-  .myButton {
+  .myButtonSquareRWD {
         color:White;
         transform: translate(0%, -50%)
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent; 
         border-right:50px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         top: 50%;
         right: 0%;
@@ -165,7 +165,7 @@ body,ul {
         ;
     }
   
-   .container {
+   .containerSquareRWD {
     margin:auto;
     width: 600px;
     height: 352px;
@@ -205,23 +205,23 @@ body,ul {
 }   
 }
 @media all and(min-width:720px) {
-    .mainContainer {
+    .mainContainerSquareRWD {
         margin:auto;
         width: 700px;
         height: 411px;
         position: relative;
     }
-  .myButton {
+  .myButtonSquareRWD {
       color:White;
       transform: translate(0%, -50%);
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent; 
         border-right:50px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         top: 50%;
         border-top: 15px solid transparent;
@@ -230,7 +230,7 @@ body,ul {
         
     }
   
-   .container {
+   .containerSquareRWD {
     
     width: 700px;
     height: 411px;
@@ -270,23 +270,23 @@ body,ul {
 }   
 }
 @media all and (min-width:1024px) {
-    .mainContainer {
+    .mainContainerSquareRWD {
         margin:auto;
         width: 950px;
         height: 600px;
         position: relative;
     }
-  .myButton {
+  .myButtonSquareRWD {
         color:white;
         transform: translate(0%, -114%)
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent; 
         border-right:50px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
@@ -294,7 +294,7 @@ body,ul {
         
     }
         
-   .container {
+   .containerSquareRWD {
     width: 950px;
     height: 600px;
     
@@ -335,29 +335,29 @@ body,ul {
 }
 
 @media all and (min-width:1125px) {
-     .mainContainer {
+     .mainContainerSquareRWD {
         margin:auto auto;
         width: 1024px;
         height: 600px;
         position: relative;
     }
-    .myButton {
+    .myButtonSquareRWD {
         color:white;
         transform: translate(0px, -50%)
     }
-    .second {
+    .secondSquareRWD {
         position: absolute;
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent; 
         border-right:60px solid white; 
     }
-    .first {
+    .firstSquareRWD {
         position: absolute;
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
         border-left: 60px solid white;
     }    
-   .container {
+   .containerSquareRWD {
     width: 1024px;
     height: 600px;
     

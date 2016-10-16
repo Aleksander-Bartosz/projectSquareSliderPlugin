@@ -12,34 +12,37 @@ Version Prototype 1.0 /**************\
    
    
   In head write:
-```html   
-    <link rel='stylesheet' type='text/css' href='style/projectSquareRWDplugin.css'>
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src='projectSquareRWDplugin.js'></script>
-```  
+    
+  -script src='app.js'
+  
+  -link rel='stylesheet' type='text/css' href='style/style.css'
+  
+  -script src="jquery-3.1.1.min.js"
+  
 Its  how html must look : 
 ```html
- <div class='mainContainer'>
-        <div class='myButton first'></div>
-        <div class='container'>
-            <div class='row row-1' data-num='1'></div>
-            <div class='row row-2' data-num='2'></div>
-            <div class='row row-3' data-num='3'></div>
-            <div class='row row-4' data-num='4'></div>
-            <div class='row row-5' data-num='5'></div>
-            <div class='row row-6' data-num='6'></div>
-            <div class='row row-7' data-num='7'></div>
-            <div class='row row-8' data-num='8'></div>
-            <div class='row row-9' data-num='9'></div>
-            <div class='row row-10' data-num='10'></div>
-            <div class='row clearner'></div>
-        </div>
-        <div class='myButton second'></div>
-    </div>    
+ <--!div class='mainContainerSquareRWD'>
+        div class='myButtonSquareRWD firstSquareRWD' div
+        div class='containerSquareRWD'>
+            div class='row row-1' data-num='1' div
+            div class='row row-2' data-num='2' div>
+            div class='row row-3' data-num='3' div>
+            div class='row row-4' data-num='4' div>
+            div class='row row-5' data-num='5' div>
+            div class='row row-6' data-num='6' div>
+            div class='row row-7' data-num='7' div>
+            div class='row row-8' data-num='8' div>
+            div class='row row-9' data-num='9' div>
+            div class='row row-10' data-num='10' div>
+            div class='row clearner'></div>
+        div>
+        div class='myButtonSquareRWD secondSquareRWD' div>
+div>    !-->
 ```
-To use  plugin put file projectSquareRWDplugin.js and style/projectSquareRWDplugin.css in same file where u have index.html (remember to add also jquuery jquery-3.1.1.min is in file pack)
-In jquuery code just  write :
+To use  plugin in ur  code just  write
 
-$('.mainContainerSquareRWD').projectSquareRWDplugin()
+$('.mainContainerSquareRWD').projectSquareRWD()
 
-enjoy ! ! !
+Images are in style/img   put there any urs img remember  about  right size of photo ! ! !
+
+enjoy 
