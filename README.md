@@ -2,6 +2,10 @@
 
 Version Prototype 1.0 /**************\
   Working on progress
+  In head write:
+  -<script src='app.js'></script>
+  -<link rel='stylesheet' type='text/css' href='style/style.css'>
+  -<script src="jquery-3.1.1.min.js"></script>
 Its  how html must look : 
  <--!<div class='mainContainerSquareRWD'>
         <div class='myButtonSquareRWD firstSquareRWD'></div>
