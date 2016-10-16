@@ -13,13 +13,18 @@ Version Prototype 1.0 /**************\
    
    
   In head write:
+    ```html
+    <link rel='stylesheet' type='text/css' href='style/projectSquareRWDplugin.css'>
     
-  -script src='app.js'
-  
-  -link rel='stylesheet' type='text/css' href='style/style.css'
-  
-  -script src="jquery-3.1.1.min.js"
-  
+    <script src="jquery-3.1.1.min.js"></script>
+    
+    <script src='projectSquareRWDplugin.js'></script>
+    
+    <script src='app.js'></script>
+```
+
+app.js is optional it just how use it in ur  jquuery code
+
 Its  how html must look : 
 ```html
  <--!div class='mainContainerSquareRWD'>
