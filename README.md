@@ -39,3 +39,8 @@ Its  how html must look :
         div class='myButtonSquareRWD secondSquareRWD' div>
 div>    !-->
 ```
+To use  plugin in ur  code just  write
+
+$('.mainContainerSquareRWD').projectSquareRWDplugin()
+
+enjoy 

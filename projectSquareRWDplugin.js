@@ -1,8 +1,7 @@
-
-$(document).ready(function () {
+$.fn.projectSquareRWDplugin = function() { 
     var row =$('.row');
     var cout=1;
-    var slideChanger=$('.myButton');
+    var slideChanger=$('.myButtonSquareRWD');
     var width= $(window).width();
     var bgImg='url("style/img/large-photo';
     function checkSize (width){
@@ -65,5 +64,5 @@ $(document).ready(function () {
             });
         });
     });
-});
+}
        
