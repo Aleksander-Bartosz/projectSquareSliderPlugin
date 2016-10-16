@@ -9,7 +9,7 @@ Version Prototype 1.0 /**************\
    - 720< 1023 px photo must be 700/422px
    - 1024 < 1125px photo must be 950/577px
    -1125>  photo must be 1024/600px
-  In head write:
+  *In head write:
   -script src='app.js'
   -link rel='stylesheet' type='text/css' href='style/style.css'
   -script src="jquery-3.1.1.min.js"
