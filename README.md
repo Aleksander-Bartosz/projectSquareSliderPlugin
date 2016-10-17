@@ -1,13 +1,14 @@
 # projectSquareRWD-SliderPlugin
 
 Version Prototype 1.0 /**************\
+  
   Working on progress
   Rwd break points:
-   - 320px  photo img must be 300/176px
-   - 480 < 600 px photo must be 430/253px
-   - 600< 720 photo must be 600/352px
-   - 720< 1023 px photo must be 700/422px
-   - 1024 < 1125px photo must be 950/577px
+   - 320px  photo img must be 300/176px  --  photo must be called rlysmall-photo1.png /rlysmall-photo2.png... remember about put number  start from 1
+   - 480 < 600 px photo must be 430/253px --  small-photo2.png
+   - 600< 720 photo must be 600/352px -- medium-photo1.png
+   - 720< 1023 px photo must be 700/422px -- bigmedium-photo1.png
+   - 1024 < 1125px photo must be 950/577px -- large-photo1.png
    
    - 1125>  photo must be 1024/600px
    
