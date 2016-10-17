@@ -1,3 +1,3 @@
 $(document).ready(function () {
-	$('.mainContainerSquareRWD').projectSquareRWD();
+	$('.mainContainerSquareRWD').projectSquareRWD(3);
 });

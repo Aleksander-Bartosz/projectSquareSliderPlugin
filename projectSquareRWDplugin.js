@@ -1,4 +1,4 @@
-$.fn.projectSquareRWD = function() { 
+$.fn.projectSquareRWD = function(arg) { 
     var row =$('.row');
     var cout=1;
     var slideChanger=$('.myButtonSquareRWD');
@@ -44,7 +44,7 @@ $.fn.projectSquareRWD = function() {
     slideChanger.on('click', function () {
         var clickWidth= $(window).outerWidth();
         checkSize(clickWidth);
-        if (cout<3){
+        if (cout<arg){
             cout++;
         }
         else {
