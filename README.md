@@ -1,5 +1,9 @@
 # projectSquareRWD-SliderPlugin
 
+Look how it work 
+
+https://aleksander-bartosz.github.io/projectSquareSliderPlugin/
+
 Version Prototype 1.0 /**************\
   Working on progress
   Rwd break points:

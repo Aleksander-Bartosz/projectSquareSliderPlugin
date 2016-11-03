@@ -50,7 +50,7 @@ $.fn.projectSquareRWD = function(arg) {
         else {
             cout=1;
         }
-        var  tim = 30;
+        var  tim = 50;
         row.sort(function() { return 0.5 - Math.random() });
         console.log(row)
         row.each(function(index, item) {
